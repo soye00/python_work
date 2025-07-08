@@ -1,6 +1,6 @@
+from flask import Flask, render_template, request
 import base64
 import io
-from flask import Flask, render_template, request
 from matplotlib import pyplot as plt
 import matplotlib
 matplotlib.use('Agg')
